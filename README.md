@@ -35,6 +35,7 @@ LobbySystem alles einstellbar / A LobbySystem with all Configs --- by iTzFreeHD
 ### Hilfe?
 - Wenn du hilfe brachst schau dir den Aspekt [Guide](#guide) oder [Wichtig](#wichtig) einmal genau an.
 - Wenn das oben genannte dir nocht hilft kannst du uns über den discord kontaktieren Link: https://discord.gg/Kna6D9f
+- [Tutorial-Video](#tutorial-video)
 - [AddOns](#addons)
 ------------
 ### Wichtig:
