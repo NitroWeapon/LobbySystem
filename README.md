@@ -121,4 +121,4 @@ Info:
     permissions: ""
 ...
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lfy3vUrnxRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Alt text](https://i.ytimg.com/vi/Lfy3vUrnxRw/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAtaLpjtiVE7hyhFLLv0JnGOH2-eA)](https://www.youtube.com/watch?v=Lfy3vUrnxRw)
