@@ -19,6 +19,7 @@ LobbySystem alles einstellbar / A LobbySystem with all Configs --- by iTzFreeHD
 - Das plugin in den Plugin ordner deines Servers kopieren. 
 - Den Server restarten. 
 - Fertig!
+- Zusätzlich kannst du noch [AddOns](#addons) instalieren.
 
 ### Beschreibung:
 - Das LobbySystem ist ein Plugin welches den Benutzern das einstellen der Items einfacher macht. So kann man jedes einzelne Item einzelnt in der Config einstellen. Ausserdem lässt sich über die "action" funktion etwas ausführen z.B. ```action:  cmd:gamemode 1 ```.
