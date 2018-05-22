@@ -121,4 +121,5 @@ Info:
     permissions: ""
 ...
 ```
-[![Alt text](https://i.ytimg.com/vi/Lfy3vUrnxRw/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAtaLpjtiVE7hyhFLLv0JnGOH2-eA)](https://www.youtube.com/watch?v=Lfy3vUrnxRw)
+
+[![Alt text](https://img.youtube.com/vi/Lfy3vUrnxRw/maxresdefault.jpg)](https://www.youtube.com/watch?v=Lfy3vUrnxRw)
