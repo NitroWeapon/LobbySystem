@@ -75,7 +75,7 @@ class Listeners implements Listener {
                         } elseif ($ac[0] === 'menu') {
                             $this->setItems($player, $ac[1]);
                         } elseif ($ac[0] === 'tp') {
-                            $coords = explode('.', $ac[0]);
+                            $coords = explode(':', $ac[0]);
                             if ($ac[1] == 'spawn') {
 
                                 $x = $this->plugin->getServer()->getDefaultLevel()->getSafeSpawn()->getX();

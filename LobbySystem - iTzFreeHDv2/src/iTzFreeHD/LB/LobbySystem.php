@@ -91,6 +91,28 @@ class LobbySystem extends PluginBase {
 
         }
 
+        if ($cmd->getName() === 'fly')
+        if ($sender instanceof Player) {
+            if ($sender->hasPermission("lobby.fly") or $sender->isOp()) {
+                if (!$sender->getAllowFlight()) {
+                    $sender->setAllowFlight(true);
+                    $sender->sendMessage(c::GREEN . "Du kannst jetzt Fliegen.");
+                    return true;
+                } else {
+                    if ($sender->getAllowFlight()) {
+                        $sender->setAllowFlight(false);
+                        $sender->sendMessage( c::RED . "Du kannst jetzt nicht mehr fliegen.");
+                        return true;
+                    }
+                }
+            } else {
+                $sender->sendMessage(c::RED . "Du musst einen Rang besitzen");
+            }
+        } else {
+            $sender->sendMessage(c::DARK_RED . "Du musst in-Game Sein");
+            return true;
+        }
+
         if ($cmd->getName() == "lobby") {
 
             if ($sender instanceof Player) {
