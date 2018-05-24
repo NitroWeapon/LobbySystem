@@ -66,7 +66,7 @@ Main:
 | msg | action: 'msg: Hello World' | Sendet dem Spieler eine Nachricht |
 | cmd | action: 'cmd:freeparticle' | Führt einen befehl für den Spieler aus |
 | menu | action: 'menu:Main' | Öffnet das jeweils angegebene Menu |
-| tp | action: 'tp:X:Y:Z' | Teleportiert den Spieler zu den angegebenen Kordinaten |
+| tp | action: 'tp:X:Y:Z:world' | Teleportiert den Spieler zu den angegebenen Kordinaten |
 | tp-spawn | action: 'tp:spawn' | Teleportiert den Spieler zum Weltpawm |
 
 ### AddOns:
