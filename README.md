@@ -69,6 +69,14 @@ Main:
 | tp | action: 'tp:X:Y:Z:world' | Teleportiert den Spieler zu den angegebenen Kordinaten |
 | tp-spawn | action: 'tp:spawn' | Teleportiert den Spieler zum Weltpawm |
 
+- Permissions:
+
+| Permission | Command | Beschreibung |
+| ------------- | ------------- |------------- | 
+| lobby.fly | fly | Aktiviert / Deaktiveirt den Flugmodus |
+| lobby.build | build | Aktiviert / Deaktiveirt den Buildmodus |
+| - | lbmain | Gibt dem Spieler die Main Items |
+
 ### AddOns:
 - [Particle](https://github.com/Hyroxing/LobbyParticle-AddON)
 - PlayerHider -> Soon
