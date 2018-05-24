@@ -2,6 +2,7 @@
 namespace iTzFreeHD\LB;
 
 
+use pocketmine\block\Block;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
 use pocketmine\event\entity\EntityDamageEvent;
@@ -75,7 +76,6 @@ class Listeners implements Listener {
                         } elseif ($ac[0] === 'menu') {
                             $this->setItems($player, $ac[1]);
                         } elseif ($ac[0] === 'tp') {
-                            $coords = explode(':', $ac[0]);
                             if ($ac[1] == 'spawn') {
 
                                 $x = $this->plugin->getServer()->getDefaultLevel()->getSafeSpawn()->getX();
@@ -83,7 +83,12 @@ class Listeners implements Listener {
                                 $z = $this->plugin->getServer()->getDefaultLevel()->getSafeSpawn()->getZ();
                                 $event->getPlayer()->teleport(new Vector3($x, $y, $z), 0, 0);
                             } else {
-                                $event->getPlayer()->teleport(new Position($coords[0], $coords[1], $coords[2], $coords[3]), 0, 0);
+                                $level = $this->plugin->getServer()->getLevelByName($ac[4]);
+                                $block = $level->getBlock(new Vector3($ac[1], $ac[2], $ac[3]));
+                                if ($block instanceof Block) {
+                                    $event->getPlayer()->teleport(new Position($block->getX(), $block->getY(), $block->getZ(), $level));
+                                }
+
                             }
                         }
 
@@ -97,7 +102,7 @@ class Listeners implements Listener {
                             } elseif ($ac[0] === 'menu') {
                                 $this->setItems($player, $ac[1]);
                             } elseif ($ac[0] === 'tp') {
-                                $coords = explode('.', $ac[0]);
+
                                 if ($ac[1] == 'spawn') {
 
                                     $x = $this->plugin->getServer()->getDefaultLevel()->getSafeSpawn()->getX();
@@ -105,7 +110,11 @@ class Listeners implements Listener {
                                     $z = $this->plugin->getServer()->getDefaultLevel()->getSafeSpawn()->getZ();
                                     $event->getPlayer()->teleport(new Vector3($x, $y, $z), 0, 0);
                                 } else {
-                                    $event->getPlayer()->teleport(new Position($coords[0], $coords[1], $coords[2], $coords[3]), 0, 0);
+                                    $level = $this->plugin->getServer()->getLevelByName($ac[4]);
+                                    $block = $level->getBlock(new Vector3($ac[1], $ac[2], $ac[3]));
+                                    if ($block instanceof Block) {
+                                        $event->getPlayer()->teleport(new Position($block->getX(), $block->getY(), $block->getZ(), $level));
+                                    }
                                 }
 
                             }
