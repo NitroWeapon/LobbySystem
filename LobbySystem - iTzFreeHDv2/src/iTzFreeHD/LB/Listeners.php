@@ -130,6 +130,7 @@ class Listeners implements Listener {
     //no Viod
     public function onMove(PlayerMoveEvent $event) {
         $cfg = new Config($this->plugin->getDataFolder() . '/Items.yml', Config::YAML);
+        $this->plugin->reloadConfig();
         if ($cfg->get('noVoid') === true) {
             $py = $event->getPlayer()->getY();
 
