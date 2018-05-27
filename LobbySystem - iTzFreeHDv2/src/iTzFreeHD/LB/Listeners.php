@@ -133,7 +133,7 @@ class Listeners implements Listener {
         if ($cfg->get('noVoid') === true) {
             $py = $event->getPlayer()->getY();
 
-            if ($py < 5) {
+            if ($py < 0) {
                 $event->getPlayer()->teleport($this->plugin->getServer()->getDefaultLevel()->getSafeSpawn(), 0, 0);
             }
         }
