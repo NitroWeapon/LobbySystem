@@ -194,19 +194,7 @@ class Listeners implements Listener {
 
         }
     }
-
-    public function noInvMove(InventoryTransactionEvent $event)
-    {
-        $cfg = new Config($this->plugin->getDataFolder() . '/Items.yml', Config::YAML);
-        foreach ($this->plugin->getServer()->getOnlinePlayers() as $player) {
-            $build = $cfg->get('Build-Perms');
-            if ($player->hasPermission($build)) {
-
-            }else {
-                $event->setCancelled();
-            }
-        }
-    }
+    
 
     //SetItem
     public function setItems(Player $player, $menu)
