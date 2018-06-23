@@ -79,7 +79,7 @@ Main:
 
 ### AddOns:
 - [Particle](https://github.com/Hyroxing/LobbyParticle-AddON)
-- PlayerHider -> Soon
+- [PlayerHider](https://github.com/Hyroxing/PlayerHider-AddOn)
 -----
 ## Items.yml
 ```php
