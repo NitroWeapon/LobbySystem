@@ -1,5 +1,5 @@
 # LobbySystem
-LobbySystem alles einstellbar / A LobbySystem with all Configs --- by iTzFreeHD
+LobbySystem alles einstellbar / A fully configurable Lobby System by iTzFreeHD
 ## Terms and Conditions:
 - This plugin is free to use, you are not allowed to sell it or get any payment for it.
 - You are not allowed to claim this plugin or any parts of it as yours
@@ -14,17 +14,17 @@ LobbySystem alles einstellbar / A LobbySystem with all Configs --- by iTzFreeHD
 ## German:
 
 ### Achtung:
-- Bevor du das Plugin beginnst einzustellen lese dir den Aspeckt [Wichtig](#wichtig) durch!
+- Bevor du das Plugin beginnst einzustellen lese dir den Aspekt [Wichtig](#wichtig) durch!
 
-### Instalieren:
+### Installieren:
 - Das plugin in den Plugin ordner deines Servers kopieren. 
 - Den Server restarten. 
 - Fertig!
 - Zusätzlich kannst du noch [AddOns](#addons) instalieren.
-- Mehr hilfe under [Hilfe](#hilfe)
+- Mehr hilfe unter [Hilfe](#hilfe)
 
 ### Beschreibung:
-- Das LobbySystem ist ein Plugin welches den Benutzern das einstellen der Items einfacher macht. So kann man jedes einzelne Item einzelnt in der Config einstellen. Ausserdem lässt sich über die "action" funktion etwas ausführen z.B. ```action:  cmd:gamemode 1 ```.
+- Das LobbySystem ist ein Plugin welches den Benutzern das einstellen der Items einfacher macht. So kann man jedes einzelne Item einzeln in der Config einstellen. Außerdem lässt sich über die "action"-Funktion etwas ausführen z.B. ```action:  cmd:gamemode 1 ```.
 
 ### Eigenschaften:
 - [x] Alles einstellbar
@@ -35,14 +35,15 @@ LobbySystem alles einstellbar / A LobbySystem with all Configs --- by iTzFreeHD
 - [x] No-Permission-MSG
 
 ### Hilfe?
-- Wenn du hilfe brachst schau dir den Aspekt [Guide](#guide) oder [Wichtig](#wichtig) einmal genau an.
-- Wenn das oben genannte dir nocht hilft kannst du uns über den discord kontaktieren Link: https://discord.gg/Kna6D9f
+- Wenn du hilfe brachst schau dir den Aspekt [Guide](#guide) oder [Wichtig](#wichtig) einmal (oder mehrmals) genau an.
+- Wenn das oben genannte dir nocht hilft kannst du uns über den Discord kontaktieren.
+ Link: https://discord.gg/Kna6D9f
 - [Tutorial-Video](#tutorial-video)
 - [AddOns](#addons)
 ------------
 ### Wichtig:
-- Slots sind von 0-8
-- Bitte beachte das ```Teleporter:``` gleich wie ```name: §6Teleporter``` nur das bei dem "name" Farbsymbole gesetzt werden dürfen. Falls das nicht der fall ist können fehler entstehen. In folgenden Versionen wird dieses Problem behoben sein!
+- Slots sind von 1-8 durchnummeriert
+- Bitte beachte das ```Teleporter:``` gleich wie ```name: §6Teleporter``` nur das bei dem "name" Farbsymbole gesetzt werden dürfen. Falls das nicht der Fall ist können Fehler entstehen. In folgenden Versionen wird dieses Problem behoben sein!
 
 #### Richtig:
 ```php
