@@ -9,7 +9,7 @@ LobbySystem alles einstellbar / A fully configurable Lobby System by iTzFreeHD
 --------------------
 ### Download .phar:
 [COMING SOON]
-- [![Download .phar](https://poggit.pmmp.io/ci/Hyroxing/LobbySystem/LobbySystem+-+iTzFreeHDv2)](https://poggit.pmmp.io/ci/Hyroxing/LobbySystem/LobbySystem+-+iTzFreeHDv2)
+- [![Download .phar](https://poggit.pmmp.io/ci/Hyroxing/LobbySystem/LobbySystem-iTzFreeHDv2)](https://poggit.pmmp.io/ci/Hyroxing/LobbySystem/LobbySystem-iTzFreeHDv2)
 --------------------
 ## German:
 
