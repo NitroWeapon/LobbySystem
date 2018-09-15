@@ -2,13 +2,9 @@ name: LobbySystem-Hyroxing
 main: iTzFreeHD\LB\LobbySystem
 author: iTzFreeHD-Hyroxing-Dev
 api:
-- 3.0.0-ALPHA7
-- 3.0.0-ALPHA8
-- 3.0.0-ALPHA9
-- 3.0.0-ALPHA10
-- 3.0.0-ALPHA12
+- 3.0.0
 - 4.0.0
-version: 2.2.4-BETA§8-§bby Hyroxing-Development=>iTzFreeHD§a
+version: 2.2.4-BETA
 commands:
   build:
     description: Build mode
