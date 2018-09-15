@@ -42,7 +42,7 @@ LobbySystem alles einstellbar / A fully configurable Lobby System by iTzFreeHD
 - [AddOns](#addons)
 ------------
 ### Wichtig:
-- Slots sind von 1-8 durchnummeriert
+- Slots sind von 0-8 durchnummeriert
 - Bitte beachte das ```Teleporter:``` gleich wie ```name: §6Teleporter``` nur das bei dem "name" Farbsymbole gesetzt werden dürfen. Falls das nicht der Fall ist können Fehler entstehen. In folgenden Versionen wird dieses Problem behoben sein!
 
 #### Richtig:
