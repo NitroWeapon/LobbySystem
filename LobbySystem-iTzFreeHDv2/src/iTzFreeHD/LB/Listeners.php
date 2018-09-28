@@ -39,7 +39,12 @@ class Listeners implements Listener {
         $pcfg->set("Menu", $JoinMenu);
         $pcfg->save();
 
-        $this->setItems($event->getPlayer(), $JoinMenu);
+        if (empty($cfg->get($JoinMenu))) {
+            $event->getPlayer()->sendMessage(c::RED.'Bitte gebe als JoinMenu ein vorhandenes Menu an');
+        } else {
+            $this->setItems($event->getPlayer(), $JoinMenu);
+        }
+
     }
 
     public function onInteract(PlayerInteractEvent $event)
@@ -60,10 +65,9 @@ class Listeners implements Listener {
             $JoinMenu = $cfg->get('JoinMenu');
             $this->setItems($player, $JoinMenu);
         }
-        foreach ($fdata as $gdata) {
-            if ($gdata['name'] == $in) {
-                $sdata = $cfg->get($menu);
-                $data = $sdata[c::clean($in)];
+        foreach ($fdata as $data) {
+            if ($data['name'] == $in) {
+
 
                 if ($in == $data['name']) {
                     $ac = explode(':', $data['action']);
